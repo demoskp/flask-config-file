@@ -7,7 +7,6 @@ authors = ["Demos Petsas <demos@petsas.consulting>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 Flask = "^2.2.3"
-Flask-RESTful = "^0.3.9"
 python-dotenv = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
