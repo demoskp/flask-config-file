@@ -4,6 +4,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEBUG = os.environ.get("DEBUG")
+FLASK_DEBUG = os.environ.get("FLASK_DEBUG")
 SECRET_KEY = os.environ.get("SECRET_KEY")
-ENV = "development"
+ENV = os.environ.get("ENV")
